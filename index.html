@@ -63,9 +63,29 @@
     <img src="deyaa_files/spacer.gif" width="100%" height="8px">
     <div class="subtitletext"> News </div>
     <br>
-    <div class="text"> 01/13/2015 - Teaching <a class="headerlink" href="https://cgi.soic.indiana.edu/~p423/home/">P423/P523 Compilers</a> this Spring </div>
-    <div class="text"> 06/16/2014 - Attended OPLSS 2014 </div>
-    <div class="text"> 01/22/2014 - Attended PLMW and POPL 2014 </div>
+    <table>
+      <tr>
+	<th></th>
+	<th></th>
+      </tr>
+      <tr>
+	<td valign="top"><div class="text"> 04/09/2015 </div></td>
+	<td valign="top"><div class="text"> Our paper "Towards Absolutely Efficient Gradually Typed Languages" submitted to </div>
+	  <div class="text"> STOP '15 </div></td>
+      </tr>
+      <tr>
+	<td><div class="text">01/13/2015 </div></td>
+	<td><div class="text">Teaching P423/P523 Compilers this Spring </div></td>
+      </tr>
+      <tr>
+	<td><div class="text">06/16/2014 </div></td>
+	<td><div class="text">Attended OPLSS 2014 </div></td>
+      </tr>
+      <tr>
+	<td><div class="text">01/22/2014 </div></td>
+	<td><div class="text">Attended PLMW and POPL 2014 </div></td>
+      </tr>
+    </table>
 
     <img src="deyaa_files/spacer.gif" width="100%" height="8px">
     <hr width="98%" align="center">
@@ -91,7 +111,14 @@
       I am generally interested in compilers, compiler correctness, gradual typing, dependent types, and program verification.
       Here are my currently active projects, in no particular order:
       <ul>
-	<li><b>Compiling gradually-typed programs</b><br> The interaction between typed and untyped code imposes certain requirements on the design of the runtime semantics of gradually-typed languages, usually in form of type casts at the boundaries between the two typing disciplines, to guarantee that dynamically-typed code cannot violate the invariants of statically-typed code. Unfortunately, even simple, first-order type checks can result in unbounded growth in the control stack, high memory usage, and run-time overhead. The goal of my work is to design a compiler for a gradually-typed language that eliminates this overhead and emits code that is not slower than corresponding ones produced by other compilers for statically-typed languages.  </li>
+	<li><b>Efficient Gradual Typing</b><br> There is a
+	  tension between enabling interoperability between static and dynamic
+	  regions and achieving efficiency, especially in static regions of
+	  code. The purpose of our present work is to study the essential
+	  efficiency of gradual typing by constructing a prototype compiler in
+	  which we can implement approaches to minimizing overheads and
+	  carefully evaluate their impact on efficiency through empirical
+	  studies.  </li>
 	<li><b>Benchmarking register allocation algorithms in <a class="headlink" href="http://llvm.org/">LLVM</a></b><br> Back-end optimizations, including register allocation, are a critical part of an optimizing compiler. The goal of the project is to implement many register allocation algorithms and heuristics in LLVM and evaluate them in terms of many performance factors including compilation time, execution time, and code size.</li>
       </ul>
       <br><br>
@@ -125,7 +152,7 @@
     <img src="deyaa_files/spacer.gif" width="100%" height="8px">
     <sup id="fn1">1. The key expires every year, make sure you have the most recent one. <a href="#ref1" title="Jump back to footnote 1 in the text.">↩</a></sup>
     <br><br>
-    <div align="center"> <font size="-1" color="#606860"> Last Updated: 03-27-2015 </font> </div>
+    <div align="center"> <font size="-1" color="#606860"> Last Updated: 04-09-2015 </font> </div>
 </div></div></div></div></div>
 <p>
   <a href="http://jigsaw.w3.org/css-validator/check/referer">
